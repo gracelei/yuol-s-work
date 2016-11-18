@@ -1,0 +1,194 @@
+.clear{
+    clear: both;
+}
+body{
+    background: url(images/bg.jpg);
+    font-family: Bradley Hand ITC;
+}
+#top{
+    width: 100%;
+    color: #ffff00;
+    background: url(images/header-bg.gif)repeat-x;
+}
+#intro{
+    width: 40%;
+    float: left;
+}
+h1{
+    font-weight: 600;
+}
+small{
+    display: block;
+    text-align: right;
+    font-size: 19px;
+}
+#nav{
+    background-color: rgba(0,0,0,0);
+    float: right;
+    width:50%;
+    height: auto;
+    margin-top: 20px;
+}
+#nav li{
+    float: left;
+    list-style: none;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+#nav li a{
+    color: #ffff00;
+    background-color: rgba(0,0,0,0);
+}
+#picture{
+    width: 80%;
+}
+#hdq ul{
+    width: 100%;
+}
+#hdq li{
+    list-style: none;
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin-top: 10px;
+    height: 30px;
+    line-height: 30px;
+}
+h3{
+    font-weight: 800;
+    text-align: center;
+    height: 38px;
+    line-height: 38px;
+}
+h3 span{
+    border-right: 4px solid #03369a;
+    border-left: 4px solid #03369a;
+}
+#wqjh{
+    padding: 15px;
+}
+#nl ul{
+    list-style: none;
+    margin-top: 20px;
+    background: url(images/kuang.gif)no-repeat right;
+}
+#nl li{
+    padding: 20px;
+    font-family: SimSun;
+    font-size: 20px;
+}
+#nl li a{
+    color: black;
+}
+h4{
+    font-weight: 600;
+    text-indent: 2em;
+}
+#content1 img{
+    padding: 0px;
+}
+input{
+    height: 30px;
+    border-top: 2px solid #2a2977;
+    border-bottom: 2px solid #2a2977;
+    float: left;
+}
+#ss-qian{
+    border-left: 2px solid #2a2977;
+    border-right: 0px;
+}
+#ss-hou{
+    border-right: 2px solid #2a2977;
+}
+#bk ol{
+    padding: 0px;
+}
+#bk ol li{
+    margin-top: 6px;
+}
+#bk ol li a{
+    color: black;
+    font-family: Simsun;
+    font-size: 15px;
+}
+#bk li span{
+    margin-left: 50px;
+}
+#qt a{
+    color: black;
+    margin-left: 20px;
+    font-size: 18px;
+    background-color: rgba(0,0,0,0);
+}
+#bkxx ul{
+    list-style: none;
+    font-size: 20px;
+    margin-left: 40px;
+    background: url(images/kuang.gif) no-repeat left;
+}
+#bkxx li{
+    margin-top: 30px;
+    padding-left: 30px;
+    background: url(images/blog-inf.gif) no-repeat left;
+}
+#bkxx a{
+    color: black;
+}
+#footer{
+    text-align: center;
+    color: cornflowerblue;
+    margin-top: 20px;
+    height: 38px;
+    line-height: 38px;
+    background-color: darkgrey
+}
+@media(max-width:992px){
+    #bk{
+        height: 200px;
+    }
+}
+@media(max-width:768px){
+    #nav{
+        margin: 0px;
+    }
+    #nav li{
+        margin: 5px;
+        text-align: right;
+        float: right;
+    }
+    #picture{
+        width: 100%;
+        margin-top: 5px;
+        padding: 0px;
+    }
+    #content1 img{
+        width: 100%
+    }
+    #content2{
+        margin-top: 20px;
+    }
+    #content2 img{
+        width: 100%;
+    }
+    #ss-qian{
+        margin-left: 30px;
+        width: 80%;   
+    }
+    #bk{
+        height: 300px;
+        overflow: hidden;
+    }
+    #list ol span{
+        display: block;
+        float: right;
+    }
+    #content3 img{
+        width: 100%;
+    }
+}
+
+
+
+
+
