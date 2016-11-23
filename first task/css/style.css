@@ -85,21 +85,26 @@ h4{
     font-weight: 600;
     text-indent: 2em;
 }
-#content1 img{
-    padding: 0px;
+#in-content2{
+    opacity: 0;
+    position: absolute;
 }
-input{
-    height: 30px;
-    border-top: 2px solid #2a2977;
-    border-bottom: 2px solid #2a2977;
-    float: left;
+#content2:hover #in-content2{
+    opacity: 1;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    overflow: hidden;
 }
-#ss-qian{
-    border-left: 2px solid #2a2977;
-    border-right: 0px;
+#ss input{
+    background: url(images/sousuo.gif) no-repeat right;
+    border: 2px solid #2a2977;
+    border-radius: 10px;
+    width: 150px;
 }
-#ss-hou{
-    border-right: 2px solid #2a2977;
+#search input{
+    color: #ffff00;
+    width: 150px;
+    margin: 20px;
 }
 #bk ol{
     padding: 0px;
@@ -137,11 +142,107 @@ input{
 }
 #footer{
     text-align: center;
-    color: cornflowerblue;
+    color: #ffff00;
+    font-size: 20px;
     margin-top: 20px;
-    height: 38px;
-    line-height: 38px;
-    background-color: darkgrey
+    height: 40px;
+    line-height: 45px;
+    background-color: rgba(0,51,153,0.8);
+}
+/*列表页pc端样式*/
+#header2{
+    color: #ffff00;
+    background-color:rgba(0,51,153,0.8);
+}
+#search{
+    float: right;
+    margin-top:50px;
+}
+#nav2{
+    background-color: rgba(0,22,88,0.8);
+}
+#nav2 ul{
+    width: 80%;
+    margin: auto;
+}
+#nav2 li{
+    background-color: rgba(66,85,10,1);
+    display: block;
+    float: left;
+    width: 23%;
+    margin-left: 5px;
+}
+#nav2 li a{
+    color: #ffff00;
+    font-size: 17px;
+}
+#nav2 li a:hover{
+    background-color: #2a2977;
+}
+#gn{
+    margin-left: 10px;
+}
+#gn ul{
+    list-style: none;
+    width: 40%;
+    float: left;
+}
+#gn li{
+    float: left;
+    width: 200px;
+    text-indent: 2em;
+}
+#gn li a{
+    color: #2a2977;
+    font-size: 20px;
+}
+.fenlei{
+    background: url(images/fenlei.gif)no-repeat;
+}
+.paixu{
+    background: url(images/paixu.gif)no-repeat;
+}
+#fy ul{
+    margin: 0px;
+    float: right;
+}
+#fy nav a{
+    background-color:rgba(0,0,0,0);
+}
+.list-content{
+    float: left;
+    margin: 10px 0 10px 0px;
+    padding: 40px;
+    background-color: white;
+    border-left: 1px solid #2a2977;
+    border-right: 1px solid #2a2977;
+    background-color:rgba(0,0,0,0.1);
+}
+/*内容页pc端样式*/
+#content-left{
+    padding: 10px 30px 10px 10px;
+}
+#pj{
+    opacity: 0;
+    position: absolute;
+    top: 200px;
+    left: -30px;
+}
+#pj ul{
+    list-style: none;
+    padding: 0px
+}
+#pj li{
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
+#pj a{
+    color: #2a2977;
+    font-size: 18px;
+}
+#fgx:hover #pj{
+    opacity: 1;
 }
 @media(max-width:992px){
     #bk{
